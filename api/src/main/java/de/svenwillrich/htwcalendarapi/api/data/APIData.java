@@ -33,7 +33,7 @@ public class APIData {
 	public String toString() {
 		StringBuilder s = new StringBuilder();
 		s.append("--\nUser: " + username + "\n");
-		s.append("PW: " + pw + "\n");
+		s.append("PW: ******\n");
 		s.append("Hash: " + hash + "\n--");
 		s.append("\n");
 		return s.toString();
